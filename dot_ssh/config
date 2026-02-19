@@ -1,0 +1,27 @@
+#GitHub Work
+Host github.com
+    Hostname github.com
+    Port 22
+    User git
+    IdentityFile ~/.ssh/github_711
+
+#Github Org
+Host github_org
+    Hostname github.com
+    Port 22
+    User git
+    IdentityFile ~/.ssh/github_711_org
+
+#GitHub Private
+Host github_lucagerlich
+    Hostname github.com
+    Port 22
+    User git
+    IdentityFile ~/.ssh/github_privat
+
+#Gitlab
+Host gitlab.com
+    Hostname gitlab.com
+    Port 22
+    User git
+    IdentityFile ~/.ssh/gitlab
